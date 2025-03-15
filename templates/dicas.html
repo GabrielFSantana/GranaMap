@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Economia - GranaMap</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">🏠 Início</a></li>
+            <li><a href="/dicas">💡 Dicas de Economia</a></li>
+            <li><a href="/sobre">👨‍💻 Sobre o Desenvolvedor</a></li>
+        </ul>
+    </nav>
+
+    <h1>Dicas para Economizar Dinheiro</h1>
+
+    <div class="videos-container">
+        {% for video in videos %}
+            <div class="video">
+                <h3>{{ video.titulo }}</h3>
+                <iframe width="560" height="315" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+        {% endfor %}
+    </div>
+
+    <a href="/">Voltar para a Home</a>
+</body>
+</html>
