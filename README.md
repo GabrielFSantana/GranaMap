@@ -30,18 +30,18 @@ GranaMap/
 
 ## 📸 Imagens do Projeto
 Tela inicial com gráfico de progresso:
-![Inicio]
-(https://github.com/user-attachments/assets/65bc2e7d-3596-471b-8ef9-808fd65575fe)
+
+![Inicio](https://github.com/user-attachments/assets/65bc2e7d-3596-471b-8ef9-808fd65575fe)
 
 
 Página de dicas de economia:
-![Dicas]
-(https://github.com/user-attachments/assets/9e826a0d-004b-47c4-8d72-29a784f4df1c)
+
+![Dicas](https://github.com/user-attachments/assets/9e826a0d-004b-47c4-8d72-29a784f4df1c)
 
 
 Página sobre o desenvolvedor:
-![Sobre]
-(https://github.com/user-attachments/assets/fdd04fc4-7dd4-4b7f-824f-a0be35e21206)
+
+![Sobre](https://github.com/user-attachments/assets/fdd04fc4-7dd4-4b7f-824f-a0be35e21206)
 
 
 ## ▶️ Como Rodar o Projeto
