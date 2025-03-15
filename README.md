@@ -2,69 +2,28 @@ GranaMap
 
 📌 Sobre o Projeto
 
-GranaMap é um sistema desenvolvido em Python com Flask para ajudar no gerenciamento de economia pessoal. O objetivo é permitir que o usuário acompanhe sua meta de R$20.000, registrando os valores economizados e visualizando o progresso através de gráficos interativos.
+GranaMap é um sistema em Python + Flask para ajudar no gerenciamento de economia pessoal, permitindo registrar valores economizados e acompanhar o progresso com gráficos interativos.
 
 🚀 Funcionalidades
 
-📊 Gráfico de progresso: Exibe o total economizado e o valor restante até a meta.
+📊 Gráfico mostrando a quantia economizada e a meta.
 
-➕ Adicionar valores: Permite incluir quantias economizadas.
+➕ Adicionar valores economizados.
 
-🗑️ Remover valores: O usuário pode excluir registros do histórico.
+🗑️ Remover valores do histórico.
 
-📜 Histórico: Exibe todas as contribuições feitas.
+📜 Histórico de contribuições.
 
-🎥 Dicas de economia: Página dedicada a vídeos e conteúdos sobre economia financeira.
+🎥 Dicas de economia com vídeos.
 
-👨‍💻 Sobre o desenvolvedor: Informações do criador do projeto.
+👨‍💻 Sobre o desenvolvedor.
 
-🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias
 
-Python (Flask) - Backend
+Python (Flask)
 
-SQLite - Banco de Dados
+SQLite
 
-Chart.js - Gráficos interativos
+Chart.js
 
-HTML, CSS e JavaScript - Frontend
-
-📂 Estrutura do Projeto
-
-GranaMap/
-│── venv/                  # Ambiente virtual
-│── static/                # Arquivos CSS, JS, imagens
-│   ├── styles.css
-│   ├── script.js
-│── templates/             # Arquivos HTML
-│   ├── index.html
-│   ├── dicas.html
-│   ├── sobre.html
-│── app.py                 # Código principal
-│── database.db            # Banco de dados SQLite
-│── requirements.txt       # Dependências do projeto
-
-▶️ Como Rodar o Projeto
-
-1️⃣ Criar e ativar o ambiente virtual
-
-python -m venv venv
-
-Ativar o ambiente virtual:
-
-Windows:
-
-venv\Scripts\activate
-
-Linux/Mac:
-
-source venv/bin/activate
-
-2️⃣ Instalar as dependências
-
-pip install -r requirements.txt
-
-3️⃣ Rodar o servidor Flask
-
-python app.py
-
-Acesse no navegador: http://127.0.0.1:5000/
+HTML, CSS, JavaScript
